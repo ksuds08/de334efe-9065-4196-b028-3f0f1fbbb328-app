@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ResumeCraft AI - Crafting Careers, One Resume at a Time">
+    <title>ResumeCraft AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-eeM7RLe3Wv2HZ7Toub47POas/user-rnGwZEmjnwoUoF8lEvadvt0O/img-QZE0CMD0Y17bNqOUL8wmElYO.png?st=2025-07-26T14%3A42%3A54Z&se=2025-07-26T16%3A42%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-25T15%3A45%3A25Z&ske=2025-07-26T15%3A45%3A25Z&sks=b&skv=2024-08-04&sig=rM0evbLp57UDemfYnGjsQMdimMQKaYrl3p3aMw0tadM%3D" alt="ResumeCraft AI Logo" class="h-12 w-auto">
+                <h1 class="text-2xl font-bold ml-4">ResumeCraft AI</h1>
+            </div>
+            <nav>
+                <a href="#features" class="text-lg text-blue-500 hover:underline">Features</a>
+                <a href="#pricing" class="ml-4 text-lg text-blue-500 hover:underline">Pricing</a>
+                <a href="#contact" class="ml-4 text-lg text-blue-500 hover:underline">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section id="hero" class="text-center py-16">
+            <h2 class="text-4xl font-bold mb-4">Crafting Careers, One Resume at a Time</h2>
+            <p class="text-xl mb-8">Our AI-powered service generates professional resume templates tailored to your career path.</p>
+            <a href="#get-started" class="bg-blue-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-600">Get Started</a>
+        </section>
+
+        <section id="features" class="py-16">
+            <h3 class="text-3xl font-bold text-center mb-8">Features</h3>
+            <div class="flex flex-col md:flex-row justify-around">
+                <div class="max-w-sm bg-white rounded-lg shadow-md p-6 mb-8 md:mb-0">
+                    <h4 class="text-2xl font-bold mb-2">AI Resume Generation</h4>
+                    <p>Automatically create resumes using AI that are tailored to specific industries and career goals.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="get-started" class="py-16 bg-gray-200">
+            <h3 class="text-3xl font-bold text-center mb-8">Get Started</h3>
+            <form id="resume-form" class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <div class="mb-4">
+                    <label for="career-details" class="block text-sm font-medium text-gray-700">Career Details</label>
+                    <textarea id="career-details" name="career-details" rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Enter your career details..."></textarea>
+                </div>
+                <div class="mb-4">
+                    <label for="template" class="block text-sm font-medium text-gray-700">Template</label>
+                    <select id="template" name="template" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option>Select a template</option>
+                        <option>Professional</option>
+                        <option>Creative</option>
+                        <option>Modern</option>
+                    </select>
+                </div>
+                <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded-md shadow hover:bg-green-600">Generate Resume</button>
+            </form>
+        </section>
+
+        <section id="pricing" class="py-16">
+            <h3 class="text-3xl font-bold text-center mb-8">Pricing</h3>
+            <div class="flex flex-col md:flex-row justify-around">
+                <div class="max-w-sm bg-white rounded-lg shadow-md p-6 mb-8 md:mb-0">
+                    <h4 class="text-2xl font-bold mb-2">Free Trial</h4>
+                    <p>Try our service free for 7 days. No credit card required!</p>
+                </div>
+                <div class="max-w-sm bg-white rounded-lg shadow-md p-6">
+                    <h4 class="text-2xl font-bold mb-2">Subscription</h4>
+                    <p>Access all features with a monthly subscription.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-16 bg-gray-200">
+            <h3 class="text-3xl font-bold text-center mb-8">Contact Us</h3>
+            <form class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <div class="mb-4">
+                    <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                    <input type="text" id="name" name="name" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md shadow hover:bg-blue-600">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-sm">© 2023 ResumeCraft AI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
