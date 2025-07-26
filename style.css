@@ -1,0 +1,16 @@
+/* Tailwind CSS is used for styling, so additional CSS is minimal */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom styles for form elements */
+#resume-form textarea,
+#resume-form select {
+    background-color: #f9fafb;
+}
+
+/* Add hover effects for buttons */
+button:hover {
+    transform: translateY(-1px);
+    transition: transform 0.2s ease-in-out;
+}
